@@ -2,6 +2,25 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+## 🔐 Environment Variables (.env)
+
+Create a `.env` file in the root directory and define the following environment variables:
+
+```env
+# ✅ PostgreSQL Database URL (update with your DB credentials)
+DATABASE_URL=postgresql://USER:PASSWORD@HOST:PORT/DATABASE_NAME
+
+# ✅ Mailtrap SMTP Configuration
+EMAIL_SERVER_HOST=sandbox.smtp.mailtrap.io
+EMAIL_SERVER_PORT=2525
+EMAIL_SERVER_USER=YOUR_MAILTRAP_USERNAME
+EMAIL_SERVER_PASSWORD=YOUR_MAILTRAP_PASSWORD
+
+# ✅ NextAuth Config
+NEXTAUTH_URL=http://localhost:3000
+NEXTAUTH_SECRET=YOUR_RANDOM_SECRET
+
+
 First, run the development server:
 
 ```bash
