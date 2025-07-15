@@ -1,6 +1,34 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
+# 🎬 Netflix Clone
+
+A full-stack **Netflix Clone** built with the latest modern technologies like **Next.js 14**, **Prisma**, **NextAuth**, and **Tailwind CSS**. This app includes authentication, UI components, and database integration for a fully responsive movie streaming experience.
+
+---
+
+## 🚀 Tech Stack
+
+| Layer        | Technologies Used                                                                 |
+|--------------|------------------------------------------------------------------------------------|
+| Frontend     | Next.js 14, React 18, Tailwind CSS, Radix UI, Lucide Icons, clsx, cva             |
+| Backend      | Next.js API Routes, NextAuth for authentication, Prisma as ORM                    |
+| Auth         | NextAuth with Prisma Adapter, Credentials & OAuth Providers                       |
+| Database     | PostgreSQL (local or remote), managed with Prisma                                 |
+| Styling      | Tailwind CSS, tailwindcss-animate, class-variance-authority (CVA), clsx           |
+| Mail (SMTP)  | Mailtrap (for development/testing), Nodemailer, Resend (optional email support)   |
+| TypeScript   | Full support with type safety and ESLint configuration                            |
+
+---
+
+## ⚙️ Project Setup
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/umar591/Netflix-Clone-.git
+cd netflix-clone
+
+
 
 ## 🔐 Environment Variables (.env)
 
