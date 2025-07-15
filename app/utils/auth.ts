@@ -29,3 +29,5 @@ export const authOptions = {
     }),
   ],
 } satisfies NextAuthOptions;
+// /utils/auth.ts
+
